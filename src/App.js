@@ -5,11 +5,11 @@ import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder'
 
 function App() {
   return (
-    <div>
+    
       <Layout>
         <BurgerBuilder/>
       </Layout>
-    </div>
+   
   );
 }
 
