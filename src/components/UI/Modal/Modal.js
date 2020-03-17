@@ -5,7 +5,7 @@ import BackDrop from '../BackDrop/BackDrop'
 const Modal = props => {
     return (
         <Fragment>
-            <BackDrop show={props.show} close={props.close}/>
+            <BackDrop show={props.show} clicked={props.close}/>
             <div 
                 className = {styles.Modal}
                 style = {{
