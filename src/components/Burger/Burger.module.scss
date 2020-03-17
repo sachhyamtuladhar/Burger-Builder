@@ -6,10 +6,10 @@
     font-size: 1.2rem;
     font-weight: bold;
 }
-@media (min-height: 500px) and (min-width: 400px){
+@media(max-width: 400px){
     .Burger{
         height: 350px;
-        width: 300px;
+        width: 90%;
     }
 }
 
